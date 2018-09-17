@@ -2,11 +2,12 @@
 
 class Star{
     constructor() {
-        this.RC = "",
-        this.DC = 0,
-        this.data = 0,
-        this.address = 0,
-        this.home = ""
+        this.RA = "",//Right Ascension
+        this.DEC = "",//Declination
+        this.CEN = "",//Centaurus
+        this.MAG = "",//magnitude
+        this.CON = "",//Constellation
+        this.STAR_STORY=""//Star story or data of star 
 }
 }
 module.exports = new Star();
